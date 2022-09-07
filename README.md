@@ -1,5 +1,5 @@
 # Automatic-Term-Recognition
-<sub>Funfact, this paper was about to be published in a scientific journal, but due to force majeure clause never got translated in English (Report is written in Greek).</sub>
+<sub>Funfact, this paper was about to be published in a scientific journal, but due to force majeure clause never got translated in English ([Report](https://github.com/ialexandridis/Automatic-Term-Recognition/blob/main/Report.pdf) is written in Greek).</sub>
 ## Files Info
 
 >-With [Python Preprocessing Corpuses.ipynb](https://github.com/ialexandridis/Automatic-Term-Recognition/blob/main/Python%20Preprocessing%20Corpuses.ipynb) the texts were pre-processed (lowercase letters, punct marks, numbers and stopwards removal, part of speech tagging, convert to .csv)<br>
@@ -12,7 +12,7 @@ All the special terms corpora were about 24,000 words in total and we kept the u
 The selection of features was mainly based on the usual practices followed and suggested by citation. Most of them are statistics (statistical), two are linguistic and one is mixed. <br>
 Features:
 1. Relative Frequency of Word<br>
-2. Term Frequency<br>
+2. Term Frequency(TF)<br>
 3. TF*IDF<br>
 4. DF<br>
 5. Entropy<br>
